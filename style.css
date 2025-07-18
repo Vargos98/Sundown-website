@@ -187,3 +187,10 @@ nav {
   border-radius: 30px;
   margin-top: 4vw;
 }
+
+
+#page2{
+  height: 100vh;
+  width: 100%;
+  background-color: red;
+}
