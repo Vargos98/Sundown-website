@@ -239,3 +239,9 @@ nav {
     transform: translateX(-100%);
   }
 }
+
+#page2-bottom{
+  height: 80vh;
+  width: 100%;
+  background-color: yellow;
+}
