@@ -107,7 +107,16 @@ nav {
 }
 
 #center h1{
+  font-weight: normal;
   font-size: 10vw;
   line-height: 8vw;
   text-align: right;
+}
+
+#page1 video{
+  width: 100%;
+  border-radius: 30px;
+  margin-top: 4vw;
+  
+
 }
