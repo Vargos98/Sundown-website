@@ -16,7 +16,7 @@
   border-bottom: 1px solid var(--line);
   padding-bottom: 2.4vw;
   position: relative;
-  z-index: 2;
+  z-index: 3;
 }
 
 .hero-left h3 {
@@ -45,10 +45,10 @@
 
 .hero-shape {
   position: absolute;
-  width: 46vw;
-  height: 36vw;
-  right: 0;
-  top: 70vh;
+  width: 52vw;
+  height: 44vw;
+  right: -6vw;
+  top: 38vh;
   pointer-events: none;
   z-index: 1;
 }
@@ -109,7 +109,6 @@
   margin-top: 4vw;
   overflow: hidden;
   max-height: 86vh;
-  transform: translateZ(0);
 }
 
 .hero-video {
@@ -626,6 +625,13 @@
   .hero-right h1 {
     font-size: 17vw;
     width: 100%;
+  }
+
+  .hero-shape {
+    width: 78vw;
+    height: 68vw;
+    right: -18vw;
+    top: 42vh;
   }
 
   .hero-video-wrap {
